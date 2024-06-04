@@ -1,0 +1,17 @@
+class Solution {
+public:
+    int longestPalindrome(string s) {
+        int OdC = 0;
+        unordered_map<char, int> cf;
+        for (char ch : s) {
+            cf[ch]++;
+            if (cf[ch] % 2 == 1)
+                OdC++;
+            else
+                OdC--;
+        }
+        if (OdC > 1)
+            return s.length() - OdC + 1;
+        return s.length();
+    }
+};
