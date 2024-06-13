@@ -5,3 +5,4 @@
 3. Subarray Sums Divisible by K <br/>
 4. Relative Sort Array <br/>
 5. Minimum Number of Moves to Seat Everyone <br/>
+6. Reverse string
